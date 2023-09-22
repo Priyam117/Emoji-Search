@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(221, 231, 239);
+}
+header {
+display: flex;
+justify-content: center;
+border-bottom: 2px solid gray;
+padding: 1rem;
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.formContainer > input {
+  padding: 0.6rem;
+  width: 50ch;
+  border-radius: 5px;
+
+}
+#SubmitButton{
+border-radius: 5px;
+margin-left: .2rem;
+width: 100px;
+}
+#displayConatiner > h1,h3, p{
+ padding: .8rem;
+ display: flex;
+}
+#displayConatiner{
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: center;
+}
